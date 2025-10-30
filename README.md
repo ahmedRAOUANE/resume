@@ -28,11 +28,9 @@ If that line is present, running the build script will produce a file named `ahm
 
 1. Open PowerShell and change to the project directory (where `resume.tex` lives).
 
-2. If your system blocks running scripts, allow execution for the session and run `build.ps1`:
-
+2. run the command on powershell
 ```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\build.ps1
+.//build.ps1
 ```
 
 3. On success you should see:
